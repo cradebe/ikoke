@@ -1,0 +1,62 @@
+/*############## general style #################*/
+
+body{
+ margin: 0;
+ padding: 0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+}
+
+/*############## home style #################*/
+
+
+#header image{
+    flex-shrink: 1;
+    -webkit-box-flex: 1;
+}
+#headerList{
+    min-width: 400px;
+    text-align: center;
+    height: 40%;
+    width: 100%;
+    background: lightgray; 
+}
+
+#MainIkokeButton{
+    background: lightblue;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+#footer{
+    right: 2px;
+    bottom: 2px;
+    position: fixed;
+    min-width: 400px;
+    text-align: right;
+    height: auto;
+    width: 100%;
+}
+
+#FootIkokeButton{
+    width: 20%;
+    height: 50px;
+    background: lightblue;
+    align-content: flex-end;
+}
+/*#################### END ######################*/
+
+
