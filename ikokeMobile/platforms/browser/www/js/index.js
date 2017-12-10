@@ -17,8 +17,6 @@
  * under the License.
  */
 
-require('bootstrap');
-
 // var app = {
 //     // Application Constructor
 //     initialize: function() {

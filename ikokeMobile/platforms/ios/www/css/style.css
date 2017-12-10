@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-radial-gradient(white, lightgrey, grey); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(white, lightgrey, grey); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(white, lightgrey, grey); /* For Fx 3.6 to 15 */
+    background: radial-gradient(white, lightgrey, grey); /* Standard syntax (must be last) */
+    margin: 0 !important;
+}
+
+/*################ HEADER #################*/
+
+.header{
+    height: 40vh;
+    width: 100vw;
+    text-align: center;
+    margin: 0 !important;
+}
+.header h1, h2{
+    color: grey;
+}
+
+.header h1{
+    font-size: 400%;
+    padding: 0;
+    margin-bottom: -11px;
+}
+
+.header h2{
+   font-size: 90%;
+   margin: 0;
+   padding: -5px;
+}
+
+/*################ main #################*/
+
+.main{
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+    margin: 0 !important;
+}
+
+.button {
+    opacity: 0.7;
+    height: 10vh;
+    width :80vw;
+    margin: 1px;
+    border-radius: 10px !important;    
+}
+
+.mapButton {
+    position: absolute;
+    margin: 0;
+    right: 0;
+    opacity: 0.8;
+    border-radius: 10px !important;
+}
+
+/*################ setting #################*/
+
+.spacer{
+    height: 3vh;
+} 
+
+.nopadding{
+    padding: 0;
+    margin: 0;
+}
+
+/*################ setting #################*/
+
+#map {
+    height: 100vh;
+    width: 100vw;
+   }
